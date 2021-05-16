@@ -1,0 +1,13 @@
+{
+   "recommendations": [
+      "aaron-bond.better-comments",
+      "Compulim.vscode-ipaddress",
+      "dbaeumer.vscode-eslint",
+      "eamodio.gitlens",
+      "esbenp.prettier-vscode",
+      "ipatalas.vscode-postfix-ts",
+      "mhutchie.git-graph",
+      "PKief.material-icon-theme",
+      "VisualStudioExptTeam.vscodeintellicode"
+   ]
+}

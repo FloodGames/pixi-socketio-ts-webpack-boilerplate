@@ -14,6 +14,8 @@ Essential Components
 -  nodeJS
 -  yarn
 
+it gives INSTANT feedback and can automatically fix your code
+
 vscode extensions:
 material icon theme
 

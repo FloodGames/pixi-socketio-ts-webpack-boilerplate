@@ -4,7 +4,9 @@ import { gameHeight, gameWidth } from "."
 import { UNITSTATS } from "../shared/constants"
 
 export class BirdClass extends AnimatedSprite {
-   constructor(public hp: number, public dmg: number) {
+   hp: number
+   dmg: number
+   constructor() {
       super([Texture.from("birdUp.png"), Texture.from("birdMiddle.png"), Texture.from("birdDown.png")])
 
       this.loop = true
