@@ -1,3 +1,26 @@
+# Vendors
+.madgerc
+.babelrc
+.yarnrc
+
+# Build
+android/
+platforms/
+plugins/
+www/
+dist/
+/npm-debug.log
+coverage
+
+# Random, should be sorted
+.idea
+.eslintcache
+package-lock.json
+yarn.lock
+database.env
+
+# default gitignore below
+
 # Logs
 logs
 *.log
