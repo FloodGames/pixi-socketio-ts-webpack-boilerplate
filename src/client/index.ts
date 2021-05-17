@@ -1,36 +1,39 @@
 import * as PIXI from "pixi.js"
-import { exampleFunction } from "./functions/exampleFunction"
-import { loadGameAssets } from "./loadGameAssets"
-import { resizeCanvas } from "./resizeCanvas"
-import { runStage } from "./stage"
 import "./css/style.css"
+import { exampleFunction } from "./functions/exampleFunction"
+import { loader, loadGameAssets } from "./loadAssets"
+import { gameHeight, gameWidth, resizeCanvas } from "./resizeCanvas"
+import { runStage } from "./stage"
 
 declare const VERSION: string
 console.log(`Welcome to Ultimate Multiplayer Game ${VERSION}`)
 
 exampleFunction(2) //example external functions with auto-import
 
-testErrorsInTypescript()
-
-//start PixiJS renderer
-export const gameWidth = 800 //global variable
-export const gameHeight = 800 //global variable
-const app = new PIXI.Application({
+export const app = new PIXI.Application({
    backgroundColor: 0xd3d3d3,
    width: gameWidth,
    height: gameHeight,
-})
+}) //start PixiJS renderer
 
 window.onload = async (): Promise<void> => {
    await loadGameAssets()
+   console.log("loader", loader)
 
-   document.body.appendChild(app.view)
+   document.body.appendChild(app.view) // purpose?
 
    resizeCanvas(app, gameWidth, gameHeight)
 
-   runStage(app)
+   runStage()
 }
 
-function testErrorsInTypescript(faulty = 5) {
-   return faulty * 3
+declare global {
+   interface Window {
+      app: PIXI.Application
+      gameWidth: number
+      gameHeight: number
+   }
 }
+window.app = app // so you can always check in console browser
+window.gameHeight = gameHeight
+window.gameWidth = gameWidth

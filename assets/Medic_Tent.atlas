@@ -1,0 +1,153 @@
+
+Medic_Tent@sd.png
+size: 114,308
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Backdrop
+  rotate: false
+  xy: 81, 87
+  size: 19, 34
+  orig: 21, 36
+  offset: 1, 1
+  index: -1
+DoorLeft
+  rotate: true
+  xy: 2, 94
+  size: 35, 77
+  orig: 37, 78
+  offset: 1, 1
+  index: -1
+DoorRight
+  rotate: true
+  xy: 2, 131
+  size: 60, 84
+  orig: 62, 86
+  offset: 1, 1
+  index: -1
+Flag/1
+  rotate: false
+  xy: 2, 4
+  size: 25, 17
+  orig: 27, 19
+  offset: 1, 1
+  index: -1
+Flag/10
+  rotate: true
+  xy: 88, 123
+  size: 25, 15
+  orig: 27, 17
+  offset: 1, 1
+  index: -1
+Flag/2
+  rotate: true
+  xy: 95, 246
+  size: 24, 14
+  orig: 26, 16
+  offset: 1, 1
+  index: -1
+Flag/3
+  rotate: true
+  xy: 97, 26
+  size: 23, 15
+  orig: 25, 17
+  offset: 1, 1
+  index: -1
+Flag/4
+  rotate: true
+  xy: 95, 198
+  size: 23, 16
+  orig: 25, 18
+  offset: 1, 1
+  index: -1
+Flag/5
+  rotate: false
+  xy: 29, 4
+  size: 23, 17
+  orig: 25, 19
+  offset: 1, 1
+  index: -1
+Flag/6
+  rotate: true
+  xy: 88, 150
+  size: 22, 17
+  orig: 24, 19
+  offset: 1, 1
+  index: -1
+Flag/7
+  rotate: true
+  xy: 92, 2
+  size: 22, 17
+  orig: 24, 19
+  offset: 1, 1
+  index: -1
+Flag/8
+  rotate: true
+  xy: 95, 223
+  size: 21, 17
+  orig: 23, 19
+  offset: 1, 1
+  index: -1
+Flag/9
+  rotate: true
+  xy: 95, 174
+  size: 22, 17
+  orig: 24, 18
+  offset: 1, 1
+  index: -1
+Flag/stok
+  rotate: false
+  xy: 103, 51
+  size: 9, 26
+  orig: 11, 28
+  offset: 1, 1
+  index: -1
+HP
+  rotate: false
+  xy: 74, 58
+  size: 27, 27
+  orig: 29, 29
+  offset: 1, 1
+  index: -1
+Medicross
+  rotate: false
+  xy: 65, 26
+  size: 30, 30
+  orig: 30, 30
+  offset: 0, 0
+  index: -1
+Shadow
+  rotate: true
+  xy: 103, 79
+  size: 19, 9
+  orig: 21, 11
+  offset: 1, 1
+  index: -1
+Tent
+  rotate: false
+  xy: 2, 193
+  size: 91, 113
+  orig: 93, 115
+  offset: 1, 1
+  index: -1
+TintStrip
+  rotate: false
+  xy: 2, 58
+  size: 70, 34
+  orig: 72, 37
+  offset: 1, 2
+  index: -1
+TintStrip_Overlay
+  rotate: false
+  xy: 2, 23
+  size: 61, 33
+  orig: 72, 37
+  offset: 1, 3
+  index: -1
+Z
+  rotate: true
+  xy: 65, 4
+  size: 20, 25
+  orig: 20, 25
+  offset: 0, 0
+  index: -1

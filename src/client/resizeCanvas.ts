@@ -1,5 +1,9 @@
 import { Application } from "@pixi/app"
 
+export const aspectRatio = 16 / 9
+export const gameWidth = 800 //global variable
+export const gameHeight = 800 //global variable
+
 export function resizeCanvas(app: Application, gameWidth: number, gameHeight: number): void {
    const resize = () => {
       console.log("resizing canvas")
