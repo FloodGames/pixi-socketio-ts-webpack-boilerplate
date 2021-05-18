@@ -15,8 +15,7 @@ Ultimate multiplayer game: PixiJs, Socketio, Typescript, Webpack and Jest (altho
 
 ## Recommended VSCode extensions:
 
-material icon theme
-
+- material icon theme
 -  ESLint _(to have VSCode tell you how ugly your code is)_
 -  IntelliCode _(like your phone autocomplete but for your code)_
 -  TS/JS postfix completion _(some cool shortcuts and templates)_
@@ -30,6 +29,6 @@ yarn dist //to run the production build locally
 
 ## Credits
 
-https://github.com/jkanchelov/pixi-typescript-boilerplate for the initial setup
-https://github.com/miltoncandelero/HelloPixi for explanations
-And all the package creators!
+https://github.com/jkanchelov/pixi-typescript-boilerplate for the initial setup   
+https://github.com/miltoncandelero/HelloPixi for explanations   
+And all the package creators!  
