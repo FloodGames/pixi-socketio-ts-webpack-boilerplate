@@ -16,8 +16,8 @@ Ultimate multiplayer game: PixiJs, Socketio, Typescript, Webpack and Jest (altho
 ## Recommended VSCode extensions:
 
 - material icon theme
--  ESLint _(to have VSCode tell you how ugly your code is)_
--  IntelliCode _(like your phone autocomplete but for your code)_
+-  ESLint _(vscode gives recommendations how to improve your code)_
+-  IntelliCode _(like phone autocomplete but for your code)_
 -  TS/JS postfix completion _(some cool shortcuts and templates)_
 -  Git Graph _(turns vscode into a mean git machine)_
 -  IP Address _(shows your local ip address making it easy to share what you are testing in a lan environment like an office.)_
